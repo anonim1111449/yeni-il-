@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-image: url(happy.jpg);
+}
+
+#container {
+    margin-top: 10%;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#new-year-message {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+@keyframes snow {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100vh); }
+}
+
+.snowflake {
+    position: absolute;
+    top: -10px;
+    font-size: 1rem;
+    color: white;
+    animation: snow 10s linear infinite;
+}
+footer{
+    color: rgb(230, 42, 9);
+    background-color: color(srgb red green blue);
+    text-align: left;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(255, 18, 18);
+    color: white;
+}
